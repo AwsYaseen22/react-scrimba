@@ -81,6 +81,9 @@ function Navbar() {
 // Challenge: Create your own custom React component!
 // Call it "MainContent", and have it return a simple
 // h1 element that says "I'm learning React!"
+function MainContent() {
+  return <h1>I'm learning React!</h1>;
+}
 
 // Afterward, render it below the Navbar (which
 // you can do inside the ReactDOM.render call below)
@@ -88,6 +91,7 @@ function Navbar() {
 ReactDOM.render(
   <div>
     <Navbar />
+    <MainContent />
   </div>,
   document.getElementById("root")
 );
