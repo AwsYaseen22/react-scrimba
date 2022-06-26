@@ -19,8 +19,10 @@ export default function TopSection() {
         </a>
       </div>
       <div className="top--buttons">
-        <button>Email</button>
-        <button>LinkedIn</button>
+        <button className="top--buttons-button top--button-email">Email</button>
+        <button className="top--buttons-button top--button-linkedin">
+          LinkedIn
+        </button>
       </div>
     </div>
   );
