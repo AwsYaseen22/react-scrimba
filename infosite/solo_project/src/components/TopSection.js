@@ -20,14 +20,22 @@ export default function TopSection() {
         </a>
       </div>
       <div className="top--buttons">
-        <button className="top--buttons-button top--button-email">
+        <a
+          className="top--buttons-button top--button-email"
+          href="mailto:aws.yaseen.22@gmail.com?subject=Let's connect"
+          target="_blank"
+        >
           <img src={mail} />
           Email
-        </button>
-        <button className="top--buttons-button top--button-linkedin">
+        </a>
+        <a
+          className="top--buttons-button top--button-linkedin"
+          href="https://www.linkedin.com/in/aws-ahmed"
+          target="_blank"
+        >
           <img src={linkedin} />
           LinkedIn
-        </button>
+        </a>
       </div>
     </div>
   );

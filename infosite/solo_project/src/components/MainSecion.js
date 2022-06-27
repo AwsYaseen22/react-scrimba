@@ -6,14 +6,15 @@ export default function MainSecion() {
     <div className="main--main">
       <h4 className="main--title">About</h4>
       <p className="main--p">
-        I am a frontend developer with a particular interest in making things
-        simple and automating daily tasks. I try to keep up with security and
-        best practices, and am always looking for new things to learn.
+        I'm a software engineer, who focuses on full-stack web development. I
+        like to solve problems by downsizing big ones into small portions that
+        make them solvable. I have a passion for building excellent Websites
+        that improve clients’ work. I try to keep up with security and best
+        practices, and am always looking for new things to learn.
       </p>
-      <h4 className="main--title">Interests</h4>
+      <h4 className="main--title">Toolbelt</h4>
       <p className="main--p">
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        HTML, CSS, JavsScript, Node, Express, MongoDB, Regix, React...
       </p>
     </div>
   );
