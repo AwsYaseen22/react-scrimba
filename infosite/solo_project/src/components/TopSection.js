@@ -1,11 +1,12 @@
 import React from "react";
 
-// import logo from "./logo.svg";
+import mail from "../images/Mail.png";
+import linkedin from "../images/linkedin.png";
 import "./TopSection.css";
 
-{
-  /* <img src={logo} className="App-logo" alt="logo" />; */
-}
+// {
+//   /* <img src={logo} className="App-logo" alt="logo" />; */
+// }
 
 export default function TopSection() {
   return (
@@ -19,8 +20,12 @@ export default function TopSection() {
         </a>
       </div>
       <div className="top--buttons">
-        <button className="top--buttons-button top--button-email">Email</button>
+        <button className="top--buttons-button top--button-email">
+          <img src={mail} />
+          Email
+        </button>
         <button className="top--buttons-button top--button-linkedin">
+          <img src={linkedin} />
           LinkedIn
         </button>
       </div>
